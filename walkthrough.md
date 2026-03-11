@@ -22,7 +22,10 @@ This walkthrough documents the completion of the project proposal and official q
     *   **CMS Strategy**: Defined an "Agent-First" workflow with custom client intake and AI image generation.
     *   **Engagement Suite**: Subscription-based commenting, star ratings, and newsletter integration.
     *   **Global Compliance**: Cookie consent, GDPR readiness, and professional medical disclaimers.
-4.  **PDF Generation**: Converted the final document into a high-quality PDF format for direct sharing.
+4.  **Branding & Design**:
+    *   Integrated official high-resolution **Karumbu** logo.
+    *   Applied robust HTML/PDF scaling to ensure perfect aspect ratio in all formats.
+5.  **PDF Generation**: Converted the final document into a high-quality PDF format for direct sharing.
 
 ## Final Verification
 - [x] All costs verified (INR).

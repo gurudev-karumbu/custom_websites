@@ -36,3 +36,6 @@
 - [x] Clean up legacy quote files and implement v1.0 versioning <!-- id: 30 -->
 - [x] Refine pricing to ₹7,500 and optimize layout (v1.2) <!-- id: 31 -->
 - [x] Fix PDF export lines/artifacts issue <!-- id: 32 -->
+- [x] Update Karumbu logo in quote and project assets <!-- id: 33 -->
+- [x] Regenerate PDF with new branding and fix scaling <!-- id: 34 -->
+- [x] Sync updated assets with Git repository <!-- id: 35 -->
