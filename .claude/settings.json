@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v \"^d.*\\\\.$\")",
+      "Read(//home/dev-dell/Documents/karumbu/**)",
+      "Bash(npx create-next-app@latest neurogenetics-web --typescript --tailwind --eslint --app --src-dir --no-turbopack --import-alias \"@/*\")",
+      "Bash(npx create-next-app@latest neurogenetics-web --typescript --tailwind --eslint --app --src-dir --no-turbopack --import-alias \"@/*\" --no-react-compiler)",
+      "Bash(cp \"A_warm,_professional_202603221934.png\" hero-woman.png)",
+      "Bash(cp \"Child_sitting_at_202603221938.jpeg\" child-focus.jpg)",
+      "Bash(cp \"Malaysian_woman_in_202603221940.jpeg\" wellness-woman.jpg)",
+      "Bash(cp \"Mother_and_child_202603221937.jpeg\" mother-child.jpg)",
+      "Bash(ls -lh *.png *.jpg)",
+      "Bash(python3 -c \"from PIL import Image; img=Image.open\\(''/home/dev-dell/Documents/karumbu/neurogenetics-web/public/images/hero-woman.png''\\); print\\(img.size\\)\")",
+      "Bash(mkdir -p '[locale]')",
+      "Bash(cp page.tsx '[locale]/page.tsx')",
+      "Bash(git remote:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)",
+      "Bash(rm -rf .git)",
+      "Bash(git init:*)",
+      "Bash(git push:*)",
+      "Bash(ffmpeg -version)",
+      "Bash(gs --version)",
+      "Read(//tmp/**)",
+      "Bash(cp /tmp/prabhu_img-034.jpg /home/dev-dell/Documents/karumbu/neurogenetics-web/public/images/prabhu.jpg)",
+      "Bash(mkdir -p /home/dev-dell/Documents/karumbu/neurogenetics-web/src/app/[locale]/about)",
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(mkdir -p \"/home/dev-dell/Documents/karumbu/neurogenetics-web/src/app/[locale]/contact\")",
+      "Bash(mkdir -p \"/home/dev-dell/Documents/karumbu/neurogenetics-web/src/app/[locale]/blog\")"
+    ],
+    "additionalDirectories": [
+      "/home/dev-dell/Documents/karumbu/neurogenetics-web/src/types",
+      "/home/dev-dell/Documents/karumbu/neurogenetics-web/src/lib",
+      "/home/dev-dell/Documents/karumbu/neurogenetics-web/src/app",
+      "/home/dev-dell/Documents/karumbu/neurogenetics-web/src/components/public",
+      "/home/dev-dell/Documents/karumbu/neurogenetics-web/public",
+      "/home/dev-dell/Documents/karumbu/neurogenetics-web",
+      "/home/dev-dell/Documents/karumbu/neurogenetics-web/src/app/[locale]/services",
+      "/home/dev-dell/Documents/karumbu/neurogenetics-web/src/app/[locale]/services/mind"
+    ]
+  }
+}

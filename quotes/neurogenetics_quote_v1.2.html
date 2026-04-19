@@ -18,6 +18,10 @@
             --border-color: #dfe6e9;
         }
 
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
             color: var(--text-main);
@@ -25,13 +29,21 @@
             margin: 0;
             padding: 0;
             background: #fff;
+            overflow-x: hidden;
         }
 
         .page {
             max-width: 850px;
+            width: 100%;
             margin: auto;
             padding: 20px 40px;
             background: #fff;
+        }
+
+        @media screen and (max-width: 600px) {
+            .page {
+                padding: 16px 16px;
+            }
         }
 
         header {
@@ -105,6 +117,8 @@
             width: 100%;
             border-collapse: collapse;
             margin: 10pt 0;
+            table-layout: fixed;
+            word-break: break-word;
         }
 
         .milestone-table th {
